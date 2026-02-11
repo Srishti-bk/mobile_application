@@ -1,4 +1,4 @@
-import Recat from "../input/input"; 
+import Input from "../input/input"; 
 export default function Register() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -10,7 +10,7 @@ export default function Register() {
         <form className="space-y-4">
           
           <div>
-           <Input/>
+           <Input type = "text" placeholder="Enter a Name" lableName="Name"/>
           </div>
 
           <div>
