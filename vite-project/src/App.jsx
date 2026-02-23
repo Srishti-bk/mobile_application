@@ -1,9 +1,7 @@
-import Register from "./components/register/Register";
+import Login from "./components/login/Login";
+
 function App() {
-  return (
-    <div > 
-      <Register />
-  </div>
-  );
-    };
-    export default App; 
+  return <Login />;
+}
+
+export default App;
